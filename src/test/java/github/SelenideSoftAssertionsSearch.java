@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Selenide.open;
 
 public class SelenideSoftAssertionsSearch {
     @Test
-    void shouldFindJuniteExample() {
+    void shouldFindJunitExample() {
         open("https://github.com/");
         $("[data-target$='inputButtonText']").click();
         $("#query-builder-test").setValue("Selenide").pressEnter();
